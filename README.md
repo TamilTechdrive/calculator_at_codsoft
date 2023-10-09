@@ -2,7 +2,7 @@
 
 
 # calculator
-I am pleased to inform you that I have successfully completed my first task at CodSoft. I would like to take this opportunity to provide a professional overview of the task and its outcomes.
+I am pleased to inform you that I have successfully completed my second task at CodSoft. I would like to take this opportunity to provide a professional overview of the task and its outcomes.
 
  - [visit here-live site]( https://tamiltechdrive.github.io/calculator_at_codsoft/)
 ## Screenshots
