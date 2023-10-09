@@ -1,15 +1,13 @@
 # calculator_at_codsoft
-# landing_page_at_codsoft
 
 
-# Landing_page
-
+# calculator
 I am pleased to inform you that I have successfully completed my first task at CodSoft. I would like to take this opportunity to provide a professional overview of the task and its outcomes.
 
- - [visit here-live site](https://tamiltechdrive.github.io/landing_page_at_codsoft/)
+ - [visit here-live site]( https://tamiltechdrive.github.io/calculator_at_codsoft/)
 ## Screenshots
 
-![App Screenshot](https://github.com/TamilTechdrive/landing_page_at_codsoft/blob/main/Screenshot%20(40).png?raw=true)
+![App Screenshot](https://github.com/TamilTechdrive/calculator_at_codsoft/blob/main/Screenshot%20(41).png)
 
 
 ## Feedback
