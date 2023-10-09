@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/5566.jpg" type="image/x-icon">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div class="calculator">
+        <div class="circle"><div class="text">
+            <h4>simple calculator</h4>
+        </div></div>
+        <div class="circle"></div>
+       
+            <input type="text" class="screen" placeholder="0.00" id="screen">
+        <div class="small-screen">
+            <input type="text" class="prev-records" placeholder="Previous" id="prevRecords" disabled>  
+        </div>
+        <table>
+            <tr>   
+                <td>
+                    <button style="color: #ff5e00;" onclick="square()">x²</button>
+                </td>
+                <td>
+                    <button style="color: #ff5e00;" onclick="sqrt()">√x</button>
+                </td>
+                <td>
+                    <button class="clear" onclick="clr()">AC</button>
+                </td>
+                <td>
+                    <button  onclick="backspace()"><i class="fas fa-backspace"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button style="color: #ff5e00;" onclick="reciprocal()">1/x</button>
+                </td>
+                <td>
+                    <button style="color: #ff5e00;" onclick="display('%')">%</button>
+                </td>
+                <td>
+                    <button style="color: #ff5e00;" onclick="toggleSign()">+/-</button>
+                </td>
+                <td>
+                    <button style="color: #ff5e00;" onclick="display('/')">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="display('7')">7</button>
+                </td>
+                <td>
+                    <button onclick="display('8')">8</button>
+                </td>
+                <td>
+                    <button onclick="display('9')">9</button>
+                </td>
+                <td>
+                    <button style="color: #ff5e00;" onclick="display('*')">x</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="display('4')">4</button>
+                </td>
+                <td>
+                    <button onclick="display('5')">5</button>
+                </td>
+                <td>
+                    <button onclick="display('6')">6</button>
+                </td>
+                <td>
+                    <button style="color: #ff5e00;" onclick="display('-')">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="display('1')">1</button>
+                </td>
+                <td>
+                    <button onclick="display('2')">2</button>
+                </td>
+                <td>
+                    <button onclick="display('3')">3</button>
+                </td>
+                <td>
+                    <button style="color: #ff5e00;" onclick="display('+')">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="display('0')">0</button>
+                </td>
+                <td>
+                    <button onclick="display('.')">.</button>
+                </td>
+                <td>
+                    <button class="evaluate" onclick="solve()">=</button>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
